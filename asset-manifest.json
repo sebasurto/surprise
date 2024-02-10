@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sebasurto/surprise/static/css/main.5b8bbef9.css",
+    "main.js": "/sebasurto/surprise/static/js/main.7b715b84.js",
+    "static/js/592.3ea35ae2.chunk.js": "/sebasurto/surprise/static/js/592.3ea35ae2.chunk.js",
+    "index.html": "/sebasurto/surprise/index.html",
+    "main.5b8bbef9.css.map": "/sebasurto/surprise/static/css/main.5b8bbef9.css.map",
+    "main.7b715b84.js.map": "/sebasurto/surprise/static/js/main.7b715b84.js.map",
+    "592.3ea35ae2.chunk.js.map": "/sebasurto/surprise/static/js/592.3ea35ae2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b8bbef9.css",
+    "static/js/main.7b715b84.js"
+  ]
+}
