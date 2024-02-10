@@ -1,0 +1,52 @@
+
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #d6336c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #c72e62;
+  }
+  
+  .animation {
+    margin-top: 30px;
+    font-size: 22px;
+    text-align: center;
+    animation: fadeIn 2s;
+    font-size: 1.5em;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  form, .buttons {
+    display: flex;
+    flex-direction: column; /* Elementos en columna para móviles */
+    align-items: center;
+    gap: 10px; /* Espacio entre elementos */
+  }
+  
+  @media (min-width: 768px) {
+    .buttons {
+      flex-direction: row; /* Elementos en fila para pantallas más grandes */
+      justify-content: center;
+    }
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
